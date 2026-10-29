@@ -23,11 +23,32 @@ personnelle. Les captures et rapports de validation détaillés restent locaux.
 
 ## Validation de livraison
 
-Le résultat du déploiement et les contrôles seront renseignés après vérification.
+Vérification effectuée le **29 octobre 2026** :
+
+- Site effectif : **https://aymenbarka.github.io/dealwatch-europe-site/**.
+- Dépôt public : https://github.com/AymenBarka/dealwatch-europe-site.
+- Publication initiale : commit `2e27d9835703355df161968458404886f70c51e8`.
+- [Construction Pages initiale réussie](https://github.com/AymenBarka/dealwatch-europe-site/actions/runs/40902917553).
+- API Pages : `built`, source `main` / `/`, HTTPS imposé.
+- Requêtes HTTP publiques : page, CSS et favicon reçus avec statut 200,
+  contenus identiques aux fichiers audités.
+- Edge réel : 1440 × 900, 390 × 844, 320 × 568 et 768 × 1024,
+  testés en local sous le sous-chemin puis après publication.
+- Navigation par ancres, lien d'évitement au clavier et focus visible vérifiés.
+- Aucun débordement horizontal, aucune erreur JavaScript ou HTTP, aucune
+  ressource externe chargée, aucun formulaire ou lien fictif actif.
+- Captures desktop et mobile examinées ; sept fichiers neufs seulement,
+  sans secret ni dépendance au projet privé.
+- Dépôt applicatif revérifié `PRIVATE`, sans changement de son contenu.
+
+L'aperçu intégré au client a refusé la navigation vers le domaine. Les contrôles
+HTTP et le navigateur Edge indépendant ont réussi ; ce refus d'aperçu ne vaut
+pas échec de publication. Les rapports détaillés restent locaux et ne sont
+pas nécessaires au fonctionnement du site.
 
 ## Revenir à la candidature Awin
 
-Une fois la publication vérifiée, utiliser l'URL publique de la vitrine comme
+La publication étant vérifiée, utiliser **https://aymenbarka.github.io/dealwatch-europe-site/** comme
 présentation du projet dans le parcours officiel d'inscription éditeur Awin.
 Décrire un prototype en développement, une vitrine informative et une plateforme
 publique non encore disponible. Une URL publique ne constitue ni une approbation
